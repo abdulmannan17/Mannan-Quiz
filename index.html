@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div id="questioncon" class="hide">
+<div id="question">What is 2+2?</div>
+<div id="answer" class="btngrid">
+<input type="radio" value="3">3</radio>
+<input type="radio" id="ans1" value="4">4</radio>
+<input type="radio" value="22">22</radio>
+<input type="radio" value="2">2</radio>
+</div>
+<br>
+<div id="question">Who is Allama Iqbal?</div>
+<div id="answer" class="btngrid">
+<input type="radio" id="ans2" >National Poet</input>
+<input type="radio">Prime Minister</input>
+<input type="radio">Founder</input>
+<input type="radio">Governor</input>
+</div>
+<br>
+<div id="question">What is HTML?</div>
+<div id="answer" class="btngrid">
+<input type="radio">Programming Language</input>
+<input type="radio" id="ans3">HyperText Markup Language</input>
+<input type="radio">HyperText Tomato Potato</input>
+<input type="radio">Sign Language</input>
+</div>
+<br>
+<hr>
+<br>
+<div class="submit">
+<button id="submitbtn" class="btn" onclick="submission()">Submit</button>
+<button id="restartbtn" class="btn"><a href="index.html">Restart</a></button>
+</div>
+</div>
+<div class="controls">
+<button id="startbtn" class="startbtn btn">Start</button>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
